@@ -1,0 +1,108 @@
+#guidelines {
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    position: relative;
+}
+section {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.guidelines{
+    background-color: #1F1F1F;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+ 
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+#guidelines .content ul i {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 20px;
+    color: #0E7094;
+    line-height: 1;
+}
+
+i {
+    font-style: italic;
+}
+
+#guidelines .gh-card ul li {
+    text-align: left ;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+#guidelines .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+#guidelines .gh-card {
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+
+
+.ct10 .section-title h2{
+    /* color: #4070f4; */
+    font-size: 32px;
+    color: white;
+}
+
+.ct10{
+    margin-top: -50px;
+    width: 1140px;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+

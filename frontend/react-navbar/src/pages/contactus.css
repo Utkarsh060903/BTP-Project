@@ -1,0 +1,138 @@
+section {
+    display: block;
+    unicode-bidi: isolate;
+    max-width: 100%;
+}
+
+#contact {
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    position: relative;
+    background-color: #1F1F1F;
+}
+
+
+section {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* .cont-title h2{
+    font-size: 32px;
+    color: black;
+} */
+
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+
+.contact .info {
+    width: 100%;
+    background: #fff;
+}
+.p-1 {
+    padding: .25rem !important;
+}
+.mb-1 {
+    margin-bottom: .25rem !important;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+.map{
+    width: 1057px;
+    height: 270px;
+}
+
+.block2{
+    height: 164.609px;
+}
+
+.block3{
+    height: 164.609px;
+}
+
+#contact .contact-body {
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+}
+
+.ct14 .section-title h2{
+    /* color: #4070f4; */
+    font-size: 32px;
+    color: white;
+}
+
+.ct14{
+    margin-top: -50px;
+    width: 1140px;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+
